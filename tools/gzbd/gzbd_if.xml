@@ -164,6 +164,16 @@
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"Red"
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><expr_stmt>;
+<unit><function><block><block_content><expr_stmt><expr><call><name>gdk_rgba_parse
+<unit><function><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>&amp;
+<unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>dz
+<unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>.
+<unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>nonw_color
+<unit><function><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"RosyBrown"
+<unit><function><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><function><block><block_content><expr_stmt>;
 <unit><function><block><block_content><comment>/* Window */
 <unit><function><block><block_content><expr_stmt><expr><name><name>dz
 <unit><function><block><block_content><expr_stmt><expr><name><operator>.
