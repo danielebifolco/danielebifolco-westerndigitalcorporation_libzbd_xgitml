@@ -229,7 +229,7 @@
 <unit><decl_stmt><decl><init>= 
 <unit><decl_stmt><decl><init><expr><block>{	
 <unit><decl_stmt><decl><init><expr><block><expr><block>{ 
-<unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>BLK_ZONE_TYPE_CONVENTIONAL
+<unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>ZBD_ZONE_TYPE_CNV
 <unit><decl_stmt><decl><init><expr><block><expr><block>,	
 <unit><decl_stmt><decl><init><expr><block><expr><block><expr><literal>"conventional"
 <unit><decl_stmt><decl><init><expr><block><expr><block>,		
@@ -237,7 +237,7 @@
 <unit><decl_stmt><decl><init><expr><block><expr><block>}
 <unit><decl_stmt><decl><init><expr><block>,	
 <unit><decl_stmt><decl><init><expr><block><expr><block>{ 
-<unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>BLK_ZONE_TYPE_SEQWRITE_REQ
+<unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>ZBD_ZONE_TYPE_SWR
 <unit><decl_stmt><decl><init><expr><block><expr><block>,	
 <unit><decl_stmt><decl><init><expr><block><expr><block><expr><literal>"seq-write-required"
 <unit><decl_stmt><decl><init><expr><block><expr><block>,	
@@ -245,7 +245,7 @@
 <unit><decl_stmt><decl><init><expr><block><expr><block>}
 <unit><decl_stmt><decl><init><expr><block>,	
 <unit><decl_stmt><decl><init><expr><block><expr><block>{ 
-<unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>BLK_ZONE_TYPE_SEQWRITE_PREF
+<unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>ZBD_ZONE_TYPE_SWP
 <unit><decl_stmt><decl><init><expr><block><expr><block>,	
 <unit><decl_stmt><decl><init><expr><block><expr><block><expr><literal>"seq-write-preferred"
 <unit><decl_stmt><decl><init><expr><block><expr><block>,	
@@ -254,7 +254,7 @@
 <unit><decl_stmt><decl><init><expr><block>,	
 <unit><decl_stmt><decl><init><expr><block><expr><block>{ 
 <unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>UINT_MAX
-<unit><decl_stmt><decl><init><expr><block><expr><block>,			
+<unit><decl_stmt><decl><init><expr><block><expr><block>,		
 <unit><decl_stmt><decl><init><expr><block><expr><block><expr><literal>"unknown"
 <unit><decl_stmt><decl><init><expr><block><expr><block>,		
 <unit><decl_stmt><decl><init><expr><block><expr><block><expr><literal>"???"
@@ -297,7 +297,7 @@
 <unit><decl_stmt><decl><init>= 
 <unit><decl_stmt><decl><init><expr><block>{	
 <unit><decl_stmt><decl><init><expr><block><expr><block>{ 
-<unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>BLK_ZONE_COND_NOT_WP
+<unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>ZBD_ZONE_COND_NOT_WP
 <unit><decl_stmt><decl><init><expr><block><expr><block>,		
 <unit><decl_stmt><decl><init><expr><block><expr><block><expr><literal>"not-write-pointer"
 <unit><decl_stmt><decl><init><expr><block><expr><block>,	
@@ -305,7 +305,7 @@
 <unit><decl_stmt><decl><init><expr><block><expr><block>}
 <unit><decl_stmt><decl><init><expr><block>,	
 <unit><decl_stmt><decl><init><expr><block><expr><block>{ 
-<unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>BLK_ZONE_COND_EMPTY
+<unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>ZBD_ZONE_COND_EMPTY
 <unit><decl_stmt><decl><init><expr><block><expr><block>,		
 <unit><decl_stmt><decl><init><expr><block><expr><block><expr><literal>"empty"
 <unit><decl_stmt><decl><init><expr><block><expr><block>,		
@@ -313,7 +313,7 @@
 <unit><decl_stmt><decl><init><expr><block><expr><block>}
 <unit><decl_stmt><decl><init><expr><block>,	
 <unit><decl_stmt><decl><init><expr><block><expr><block>{ 
-<unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>BLK_ZONE_COND_FULL
+<unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>ZBD_ZONE_COND_FULL
 <unit><decl_stmt><decl><init><expr><block><expr><block>,		
 <unit><decl_stmt><decl><init><expr><block><expr><block><expr><literal>"full"
 <unit><decl_stmt><decl><init><expr><block><expr><block>,			
@@ -321,7 +321,7 @@
 <unit><decl_stmt><decl><init><expr><block><expr><block>}
 <unit><decl_stmt><decl><init><expr><block>,	
 <unit><decl_stmt><decl><init><expr><block><expr><block>{ 
-<unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>BLK_ZONE_COND_IMP_OPEN
+<unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>ZBD_ZONE_COND_IMP_OPEN
 <unit><decl_stmt><decl><init><expr><block><expr><block>,	
 <unit><decl_stmt><decl><init><expr><block><expr><block><expr><literal>"open-implicit"
 <unit><decl_stmt><decl><init><expr><block><expr><block>,	
@@ -329,7 +329,7 @@
 <unit><decl_stmt><decl><init><expr><block><expr><block>}
 <unit><decl_stmt><decl><init><expr><block>,	
 <unit><decl_stmt><decl><init><expr><block><expr><block>{ 
-<unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>BLK_ZONE_COND_EXP_OPEN
+<unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>ZBD_ZONE_COND_EXP_OPEN
 <unit><decl_stmt><decl><init><expr><block><expr><block>,	
 <unit><decl_stmt><decl><init><expr><block><expr><block><expr><literal>"open-explicit"
 <unit><decl_stmt><decl><init><expr><block><expr><block>,	
@@ -337,7 +337,7 @@
 <unit><decl_stmt><decl><init><expr><block><expr><block>}
 <unit><decl_stmt><decl><init><expr><block>,	
 <unit><decl_stmt><decl><init><expr><block><expr><block>{ 
-<unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>BLK_ZONE_COND_CLOSED
+<unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>ZBD_ZONE_COND_CLOSED
 <unit><decl_stmt><decl><init><expr><block><expr><block>,		
 <unit><decl_stmt><decl><init><expr><block><expr><block><expr><literal>"closed"
 <unit><decl_stmt><decl><init><expr><block><expr><block>,		
@@ -345,7 +345,7 @@
 <unit><decl_stmt><decl><init><expr><block><expr><block>}
 <unit><decl_stmt><decl><init><expr><block>,	
 <unit><decl_stmt><decl><init><expr><block><expr><block>{ 
-<unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>BLK_ZONE_COND_READONLY
+<unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>ZBD_ZONE_COND_READONLY
 <unit><decl_stmt><decl><init><expr><block><expr><block>,	
 <unit><decl_stmt><decl><init><expr><block><expr><block><expr><literal>"read-only"
 <unit><decl_stmt><decl><init><expr><block><expr><block>,		
@@ -353,7 +353,7 @@
 <unit><decl_stmt><decl><init><expr><block><expr><block>}
 <unit><decl_stmt><decl><init><expr><block>,	
 <unit><decl_stmt><decl><init><expr><block><expr><block>{ 
-<unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>BLK_ZONE_COND_OFFLINE
+<unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>ZBD_ZONE_COND_OFFLINE
 <unit><decl_stmt><decl><init><expr><block><expr><block>,	
 <unit><decl_stmt><decl><init><expr><block><expr><block><expr><literal>"offline"
 <unit><decl_stmt><decl><init><expr><block><expr><block>,		
