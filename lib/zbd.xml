@@ -1107,6 +1107,21 @@
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><operator>=
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name>nr_zones
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt>;
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><comment>/* Set limits to unknown for now */
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name><name>zbdi
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name><operator>-&gt;
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name><name>max_nr_open_zones
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><operator>=
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><operator>-
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><literal>1
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt>;
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name><name>zbdi
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name><operator>-&gt;
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name><name>max_nr_active_zones
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><operator>=
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><operator>-
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><literal>1
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt>;
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><comment>/* Finish setting */
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><if_stmt><if>if 
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><if_stmt><if><condition>(
