@@ -1254,6 +1254,31 @@
 <unit><function><block><block_content><expr_stmt><expr><call><name>gzv_if_create_window
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list>()
 <unit><function><block><block_content><expr_stmt>;
+<unit><function><block><block_content><comment>/* Check user credentials */
+<unit><function><block><block_content><if_stmt><if>if 
+<unit><function><block><block_content><if_stmt><if><condition>(
+<unit><function><block><block_content><if_stmt><if><condition><expr><call><name>getuid
+<unit><function><block><block_content><if_stmt><if><condition><expr><call><argument_list>()
+<unit><function><block><block_content><if_stmt><if><condition><expr><operator>!=
+<unit><function><block><block_content><if_stmt><if><condition><expr><literal>0
+<unit><function><block><block_content><if_stmt><if><condition>)
+<unit><function><block><block_content><if_stmt><if><block>{
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>gzv_if_err
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"Root privileges are required for running gzbd-viewer"
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,			   
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"Opening a block device file can only be done with "
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"elevated priviledges"
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>ret
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>1
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><function><block><block_content><if_stmt><if><block><block_content><goto>goto 
+<unit><function><block><block_content><if_stmt><if><block><block_content><goto><name>out
+<unit><function><block><block_content><if_stmt><if><block><block_content><goto>;
+<unit><function><block><block_content><if_stmt><if><block>}
 <unit><function><block><block_content><if_stmt><if>if 
 <unit><function><block><block_content><if_stmt><if><condition>(
 <unit><function><block><block_content><if_stmt><if><condition><expr><name>argc
