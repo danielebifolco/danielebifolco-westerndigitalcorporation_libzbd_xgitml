@@ -838,7 +838,7 @@
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>-
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>1
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list>,		 
-<unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"&lt;b&gt;%.03F GB, %zu B logical blocks, %zu B physical blocks&lt;/b&gt;"
+<unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"&lt;b&gt;%.03F GB, %u B logical blocks, %u B physical blocks&lt;/b&gt;"
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list>,		 
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>(
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>double
