@@ -1,5 +1,5 @@
-<unit><comment>//* SPDX-License-Identifier: LGPL-2.0-or-later
-<unit><comment>/* * Copyright (c) 2020 Western Digital Corporation or its affiliates. * * Authors: Damien Le Moal (damien.lemoal@wdc.com) */
+<unit><comment>// SPDX-License-Identifier: GPL-3.0-or-later
+<unit><comment>/* * SPDX-FileCopyrightText: 2020 Western Digital Corporation or its affiliates. * * Authors: Damien Le Moal (damien.lemoal@wdc.com) */
 <unit><cpp:include>#
 <unit><cpp:include><cpp:directive>include
 <unit><cpp:include><cpp:file>&lt;stdio.h&gt;
