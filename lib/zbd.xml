@@ -1766,6 +1766,14 @@
 <unit><function><function><block><function><function><block><block_content><expr_stmt>;
 <unit><function><function><block><function><function><block><block_content><expr_stmt><expr><name><name>zone
 <unit><function><function><block><function><function><block><block_content><expr_stmt><expr><name><operator>-&gt;
+<unit><function><function><block><function><function><block><block_content><expr_stmt><expr><name><name>capacity
+<unit><function><function><block><function><function><block><block_content><expr_stmt><expr><operator>=
+<unit><function><function><block><function><function><block><block_content><expr_stmt><expr><name><name>zone
+<unit><function><function><block><function><function><block><block_content><expr_stmt><expr><name><operator>-&gt;
+<unit><function><function><block><function><function><block><block_content><expr_stmt><expr><name><name>len
+<unit><function><function><block><function><function><block><block_content><expr_stmt>;
+<unit><function><function><block><function><function><block><block_content><expr_stmt><expr><name><name>zone
+<unit><function><function><block><function><function><block><block_content><expr_stmt><expr><name><operator>-&gt;
 <unit><function><function><block><function><function><block><block_content><expr_stmt><expr><name><name>wp
 <unit><function><function><block><function><function><block><block_content><expr_stmt><expr><operator>=
 <unit><function><function><block><function><function><block><block_content><expr_stmt><expr><name><name>blkz
