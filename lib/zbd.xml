@@ -1535,6 +1535,11 @@
 <unit><function><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list>)
 <unit><function><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt>;
+<unit><function><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><name>free
+<unit><function><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>(
+<unit><function><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>path
+<unit><function><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>)
+<unit><function><function><function><block><block_content><decl_stmt><expr_stmt>;
 <unit><function><function><function><block><block_content><decl_stmt><return>return 
 <unit><function><function><function><block><block_content><decl_stmt><return><expr><name>fd
 <unit><function><function><function><block><block_content><decl_stmt><return>;
