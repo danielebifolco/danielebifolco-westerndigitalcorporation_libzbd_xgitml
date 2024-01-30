@@ -886,7 +886,7 @@
 <unit><function><function><block><block_content><expr_stmt>;
 <unit><function><function><block><block_content><expr_stmt><expr><call><name>printf
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"    %s zone model\n"
+<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"    Zone model: %s\n"
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>,		
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><name>zbd_device_model_str
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>(
@@ -902,7 +902,22 @@
 <unit><function><function><block><block_content><expr_stmt>;
 <unit><function><function><block><block_content><expr_stmt><expr><call><name>printf
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"    %llu 512-bytes sectors\n"
+<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"    Capacity: %.03F GB (%llu 512-bytes sectors)\n"
+<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>,	       
+<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>(
+<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>double
+<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>)
+<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>(
+<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>opts
+<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
+<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>dev_info
+<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>.
+<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>nr_sectors
+<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>&lt;&lt;
+<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>9
+<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>)
+<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>/
+<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>1000000000
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>,	       
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>opts
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
@@ -913,7 +928,7 @@
 <unit><function><function><block><block_content><expr_stmt>;
 <unit><function><function><block><block_content><expr_stmt><expr><call><name>printf
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"    %llu logical blocks of %zu B\n"
+<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"    Logical blocks: %llu blocks of %zu B\n"
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>,	       
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>opts
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
@@ -930,7 +945,7 @@
 <unit><function><function><block><block_content><expr_stmt>;
 <unit><function><function><block><block_content><expr_stmt><expr><call><name>printf
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"    %llu physical blocks of %zu B\n"
+<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"    Physical blocks: %llu blocks of %zu B\n"
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>,	       
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>opts
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
@@ -947,27 +962,13 @@
 <unit><function><function><block><block_content><expr_stmt>;
 <unit><function><function><block><block_content><expr_stmt><expr><call><name>printf
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"    %.03F GB capacity\n"
+<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"    Zones: %u zones of %.1F MB\n"
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>,	       
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>(
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>double
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>)
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>(
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>opts
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>dev_info
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>.
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>nr_sectors
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>&lt;&lt;
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>9
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>)
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>/
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>1000000000
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><function><function><block><block_content><expr_stmt>;
-<unit><function><function><block><block_content><expr_stmt><expr><call><name>printf
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"    %.1F MB zone size\n"
+<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>nr_zones
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>,	       
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>(
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>double
@@ -979,17 +980,6 @@
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>zone_size
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>/
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>1048576.0
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><function><function><block><block_content><expr_stmt>;
-<unit><function><function><block><block_content><expr_stmt><expr><call><name>printf
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"    %u zones\n"
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>opts
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>dev_info
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>.
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>nr_zones
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><function><block><block_content><expr_stmt>;
 <unit><function><function><block><block_content><expr_stmt><expr><call><name>printf
