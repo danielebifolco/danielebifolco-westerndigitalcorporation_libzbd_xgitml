@@ -5,6 +5,9 @@
 <unit><cpp:include><cpp:file>"zbd.h"
 <unit><cpp:include>#
 <unit><cpp:include><cpp:directive>include
+<unit><cpp:include><cpp:file>&lt;errno.h&gt;
+<unit><cpp:include>#
+<unit><cpp:include><cpp:directive>include
 <unit><cpp:include><cpp:file>&lt;string.h&gt;
 <unit><cpp:include>#
 <unit><cpp:include><cpp:directive>include
