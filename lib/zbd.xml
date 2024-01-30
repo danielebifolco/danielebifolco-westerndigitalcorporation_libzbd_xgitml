@@ -929,7 +929,7 @@
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><operator>=
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name>size64
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><operator>&gt;&gt;
-<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><literal>9
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name>SECTOR_SHIFT
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt>;
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name><name>zbdi
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name><operator>-&gt;
@@ -1047,11 +1047,13 @@
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name><name>zone_size
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><operator>=
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><operator>(
-<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name>size_t
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name>unsigned
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name>long
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name>long
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><operator>)
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name>zone_sectors
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><operator>&lt;&lt;
-<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><literal>9
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name>SECTOR_SHIFT
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt>;
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><comment>/* Get number of zones */
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name>ret
@@ -1901,7 +1903,7 @@
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><name><operator>-&gt;
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><name><name>nr_sectors
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><operator>&lt;&lt;
-<unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><literal>9
+<unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><name>SECTOR_SHIFT
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name>end
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><operator>=
@@ -1920,7 +1922,7 @@
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><operator>)
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><operator>)
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><operator>&gt;&gt;
-<unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><literal>9
+<unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name>SECTOR_SHIFT
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt>;
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><if_stmt><if>if 
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><if_stmt><if><condition>(
@@ -1947,7 +1949,7 @@
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><operator>)
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><operator>)
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><operator>&gt;&gt;
-<unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><literal>9
+<unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name>SECTOR_SHIFT
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt>;
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><if_stmt><if>if 
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><if_stmt><if><condition>(
@@ -2529,7 +2531,7 @@
 <unit><function><function><block><function><function><block><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><name><operator>-&gt;
 <unit><function><function><block><function><function><block><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><name><name>nr_sectors
 <unit><function><function><block><function><function><block><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><operator>&lt;&lt;
-<unit><function><function><block><function><function><block><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><literal>9
+<unit><function><function><block><function><function><block><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><name>SECTOR_SHIFT
 <unit><function><function><block><function><function><block><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><function><block><function><function><block><function><block><block_content><decl_stmt><expr_stmt><expr><name>end
 <unit><function><function><block><function><function><block><function><block><block_content><decl_stmt><expr_stmt><expr><operator>=
@@ -2548,7 +2550,7 @@
 <unit><function><function><block><function><function><block><function><block><block_content><decl_stmt><expr_stmt><expr><operator>)
 <unit><function><function><block><function><function><block><function><block><block_content><decl_stmt><expr_stmt><expr><operator>)
 <unit><function><function><block><function><function><block><function><block><block_content><decl_stmt><expr_stmt><expr><operator>&gt;&gt;
-<unit><function><function><block><function><function><block><function><block><block_content><decl_stmt><expr_stmt><expr><literal>9
+<unit><function><function><block><function><function><block><function><block><block_content><decl_stmt><expr_stmt><expr><name>SECTOR_SHIFT
 <unit><function><function><block><function><function><block><function><block><block_content><decl_stmt><expr_stmt>;
 <unit><function><function><block><function><function><block><function><block><block_content><decl_stmt><if_stmt><if>if 
 <unit><function><function><block><function><function><block><function><block><block_content><decl_stmt><if_stmt><if><condition>(
@@ -2575,7 +2577,7 @@
 <unit><function><function><block><function><function><block><function><block><block_content><decl_stmt><expr_stmt><expr><operator>)
 <unit><function><function><block><function><function><block><function><block><block_content><decl_stmt><expr_stmt><expr><operator>)
 <unit><function><function><block><function><function><block><function><block><block_content><decl_stmt><expr_stmt><expr><operator>&gt;&gt;
-<unit><function><function><block><function><function><block><function><block><block_content><decl_stmt><expr_stmt><expr><literal>9
+<unit><function><function><block><function><function><block><function><block><block_content><decl_stmt><expr_stmt><expr><name>SECTOR_SHIFT
 <unit><function><function><block><function><function><block><function><block><block_content><decl_stmt><expr_stmt>;
 <unit><function><function><block><function><function><block><function><block><block_content><decl_stmt><if_stmt><if>if 
 <unit><function><function><block><function><function><block><function><block><block_content><decl_stmt><if_stmt><if><condition>(
