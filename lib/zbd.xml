@@ -194,6 +194,9 @@
 <unit><function><block><block_content><decl_stmt><decl><type><modifier>*
 <unit><function><block><block_content><decl_stmt><decl><name>file
 <unit><function><block><block_content><decl_stmt>;
+<unit><function><block><block_content><decl_stmt><decl><type><name>int
+<unit><function><block><block_content><decl_stmt><decl><name>ret
+<unit><function><block><block_content><decl_stmt>;
 <unit><function><block><block_content><comment>/* Check that this is a zoned block device */
 <unit><function><block><block_content><expr_stmt><expr><call><name>snprintf
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list>(
@@ -279,6 +282,8 @@
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list>)
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><expr_stmt>;
+<unit><function><block><block_content><expr_stmt><expr><name>ret
+<unit><function><block><block_content><expr_stmt><expr><operator>=
 <unit><function><block><block_content><expr_stmt><expr><call><name>fscanf
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>file
@@ -293,6 +298,16 @@
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>file
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><expr_stmt>;
+<unit><function><block><block_content><if_stmt><if>if 
+<unit><function><block><block_content><if_stmt><if><condition>(
+<unit><function><block><block_content><if_stmt><if><condition><expr><name>ret
+<unit><function><block><block_content><if_stmt><if><condition><expr><operator>!=
+<unit><function><block><block_content><if_stmt><if><condition><expr><literal>1
+<unit><function><block><block_content><if_stmt><if><condition>)
+<unit><function><block><block_content><if_stmt><if><block><block_content><return>return 
+<unit><function><block><block_content><if_stmt><if><block><block_content><return><expr><operator>-
+<unit><function><block><block_content><if_stmt><if><block><block_content><return><expr><literal>1
+<unit><function><block><block_content><if_stmt><if><block><block_content><return>;
 <unit><function><block><block_content><if_stmt><if>if 
 <unit><function><block><block_content><if_stmt><if><condition>(
 <unit><function><block><block_content><if_stmt><if><condition><expr><call><name>strcmp
