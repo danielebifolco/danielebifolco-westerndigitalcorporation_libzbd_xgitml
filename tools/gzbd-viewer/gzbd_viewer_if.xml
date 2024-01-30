@@ -1782,7 +1782,7 @@
 <unit><function><function><function><function><block><block_content><decl_stmt><decl><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><name>window
 <unit><function><function><function><function><block><block_content><decl_stmt><decl><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>)
 <unit><function><function><function><function><block><block_content><decl_stmt><decl><expr_stmt><expr><call><argument_list>, 
-<unit><function><function><function><function><block><block_content><decl_stmt><decl><expr_stmt><expr><call><argument_list><argument><expr><literal>"ZBC Device Zone State"
+<unit><function><function><function><function><block><block_content><decl_stmt><decl><expr_stmt><expr><call><argument_list><argument><expr><literal>"Zoned Block Device Zone State"
 <unit><function><function><function><function><block><block_content><decl_stmt><decl><expr_stmt><expr><call><argument_list>)
 <unit><function><function><function><function><block><block_content><decl_stmt><decl><expr_stmt>;
 <unit><function><function><function><function><block><block_content><decl_stmt><decl><expr_stmt><expr><call><name>gtk_container_set_border_width
