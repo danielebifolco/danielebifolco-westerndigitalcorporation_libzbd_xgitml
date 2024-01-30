@@ -1,5 +1,5 @@
-<unit><comment>// SPDX-License-Identifier: GPL-3.0-or-later
-<unit><comment>/* * SPDX-FileCopyrightText: 2020 Western Digital Corporation or its affiliates. * * Authors: Damien Le Moal (damien.lemoal@wdc.com) */
+<unit><comment>//* SPDX-License-Identifier: LGPL-2.0-or-later
+<unit><comment>/* * Copyright (c) 2020 Western Digital Corporation or its affiliates. * * Authors: Damien Le Moal (damien.lemoal@wdc.com) */
 <unit><cpp:include>#
 <unit><cpp:include><cpp:directive>include
 <unit><cpp:include><cpp:file>&lt;stdio.h&gt;
@@ -330,9 +330,9 @@
 <unit><function><name>gzv_fix_zone_values
 <unit><function><parameter_list>(
 <unit><function><parameter_list><parameter><decl><type><name><name>struct
-<unit><function><parameter_list><parameter><decl><type><name><name>zbd_zone
+<unit><function><parameter_list><parameter><decl><type><name><name>blk_zone
 <unit><function><parameter_list><parameter><decl><type><modifier>*
-<unit><function><parameter_list><parameter><decl><name>zbdz
+<unit><function><parameter_list><parameter><decl><name>blkz
 <unit><function><parameter_list>, 
 <unit><function><parameter_list><parameter><decl><type><name>int
 <unit><function><parameter_list><parameter><decl><name>nrz
@@ -364,7 +364,7 @@
 <unit><function><block><block_content><for><control><incr><expr><operator>++
 <unit><function><block><block_content><for><control>)
 <unit><function><block><block_content><for><block>{
-<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><name>zbdz
+<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><name>blkz
 <unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><operator>-&gt;
 <unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><name>start
 <unit><function><block><block_content><for><block><block_content><expr_stmt><expr><operator>/=
@@ -372,17 +372,9 @@
 <unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><operator>.
 <unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><name>block_size
 <unit><function><block><block_content><for><block><block_content><expr_stmt>;
-<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><name>zbdz
+<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><name>blkz
 <unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><operator>-&gt;
 <unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><name>len
-<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><operator>/=
-<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><name>gzv
-<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><operator>.
-<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><name>block_size
-<unit><function><block><block_content><for><block><block_content><expr_stmt>;
-<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><name>zbdz
-<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><operator>-&gt;
-<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><name>capacity
 <unit><function><block><block_content><for><block><block_content><expr_stmt><expr><operator>/=
 <unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><name>gzv
 <unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><operator>.
@@ -391,12 +383,12 @@
 <unit><function><block><block_content><for><block><block_content><if_stmt><if>if 
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><condition>(
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><condition><expr><operator>!
-<unit><function><block><block_content><for><block><block_content><if_stmt><if><condition><expr><call><name>zbd_zone_cnv
+<unit><function><block><block_content><for><block><block_content><if_stmt><if><condition><expr><call><name>zbd_zone_conventional
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><condition><expr><call><argument_list>(
-<unit><function><block><block_content><for><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><name>zbdz
+<unit><function><block><block_content><for><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><name>blkz
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><condition><expr><call><argument_list>)
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><condition>)
-<unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><name>zbdz
+<unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><name>blkz
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><operator>-&gt;
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><name>wp
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>/=
@@ -404,7 +396,7 @@
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><operator>.
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><name>block_size
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
-<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name>zbdz
+<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name>blkz
 <unit><function><block><block_content><for><block><block_content><expr_stmt><expr><operator>++
 <unit><function><block><block_content><for><block><block_content><expr_stmt>;
 <unit><function><block><block_content><for><block>}
@@ -562,33 +554,15 @@
 <unit><function><block><block_content><if_stmt><if><condition><expr><name>ret
 <unit><function><block><block_content><if_stmt><if><condition><expr><operator>!=
 <unit><function><block><block_content><if_stmt><if><condition><expr><literal>0
-<unit><function><block><block_content><if_stmt><if><condition>)
-<unit><function><block><block_content><if_stmt><if><block><block_content><goto>goto 
-<unit><function><block><block_content><if_stmt><if><block><block_content><goto><name>out
-<unit><function><block><block_content><if_stmt><if><block><block_content><goto>;
-<unit><function><block><block_content><if_stmt><if>if 
-<unit><function><block><block_content><if_stmt><if><condition>(
+<unit><function><block><block_content><if_stmt><if><condition><expr><operator>||
 <unit><function><block><block_content><if_stmt><if><condition><expr><operator>!
 <unit><function><block><block_content><if_stmt><if><condition><expr><name><name>gzv
 <unit><function><block><block_content><if_stmt><if><condition><expr><name><operator>.
 <unit><function><block><block_content><if_stmt><if><condition><expr><name><name>nr_zones
 <unit><function><block><block_content><if_stmt><if><condition>)
-<unit><function><block><block_content><if_stmt><if><block>{
-<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>fprintf
-<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>stderr
-<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"No zones reported\n"
-<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
-<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>ret
-<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
-<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>1
-<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><block><block_content><if_stmt><if><block><block_content><goto>goto 
 <unit><function><block><block_content><if_stmt><if><block><block_content><goto><name>out
 <unit><function><block><block_content><if_stmt><if><block><block_content><goto>;
-<unit><function><block><block_content><if_stmt><if><block>}
 <unit><function><block><block_content><expr_stmt><expr><call><name>gzv_fix_zone_values
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>gzv
@@ -618,7 +592,7 @@
 <unit><function><block><block_content><for><block>{
 <unit><function><block><block_content><for><block><block_content><if_stmt><if>if 
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><condition>(
-<unit><function><block><block_content><for><block><block_content><if_stmt><if><condition><expr><call><name>zbd_zone_cnv
+<unit><function><block><block_content><for><block><block_content><if_stmt><if><condition><expr><call><name>zbd_zone_conventional
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><condition><expr><call><argument_list>(
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><operator>&amp;
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><name><name>gzv
@@ -823,7 +797,7 @@
 <unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><index><expr><name>i
 <unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><index>]
 <unit><function><block><block_content><for><block><block_content><expr_stmt><expr><operator>.
-<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name>zbdz
+<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name>blkz
 <unit><function><block><block_content><for><block><block_content><expr_stmt><expr><operator>=
 <unit><function><block><block_content><for><block><block_content><expr_stmt><expr><operator>&amp;
 <unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><name>gzv
@@ -1015,7 +989,7 @@
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>&amp;
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>argv
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list>,				      
-<unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"&lt;path to zoned block device&gt;"
+<unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"Zoned block device zone state GUI"
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list>,				      
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>options
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list>, 
@@ -1256,6 +1230,8 @@
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><index><expr><name>zno_start
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><index>]
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>)
+<unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>&lt;&lt;
+<unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>9
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list>,			       
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>nrz
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>*
