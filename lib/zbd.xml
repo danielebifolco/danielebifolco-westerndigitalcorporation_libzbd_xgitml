@@ -206,9 +206,9 @@
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list>(
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list><argument><expr><name>str
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list>)
-<unit><function><block><block_content><expr_stmt><expr><call><argument_list>,                 
+<unit><function><block><block_content><expr_stmt><expr><call><argument_list>,		 
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"/sys/block/%s/queue/zoned"
-<unit><function><block><block_content><expr_stmt><expr><call><argument_list>,                 
+<unit><function><block><block_content><expr_stmt><expr><call><argument_list>,		 
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>devname
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><expr_stmt>;
@@ -494,9 +494,9 @@
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list>(
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list><argument><expr><name>str
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list>)
-<unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>,                 
+<unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>,		 
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><literal>"/sys/block/%s/device/vendor"
-<unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>,                 
+<unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>,		 
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>devname
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><decl_stmt><expr_stmt>;
@@ -534,9 +534,9 @@
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>zbdi
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>vendor_id
-<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,                                     
+<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,				     
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>ZBD_VENDOR_ID_LENGTH
-<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,                                     
+<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,				     
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"%s "
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>str
@@ -556,9 +556,9 @@
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list>(
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list><argument><expr><name>str
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list>)
-<unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>,                 
+<unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>,		 
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><literal>"/sys/block/%s/device/model"
-<unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>,                 
+<unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>,		 
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>devname
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><decl_stmt><expr_stmt>;
@@ -600,11 +600,11 @@
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>[
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index><expr><name>n
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>]
-<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,                                      
+<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,				      
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>ZBD_VENDOR_ID_LENGTH
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>-
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>n
-<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,                                      
+<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,				      
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"%s "
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>str
@@ -624,9 +624,9 @@
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list>(
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list><argument><expr><name>str
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list>)
-<unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>,                 
+<unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>,		 
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><literal>"/sys/block/%s/device/rev"
-<unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>,                 
+<unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>,		 
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>devname
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><decl_stmt><expr_stmt>;
@@ -668,11 +668,11 @@
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>[
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index><expr><name>n
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>]
-<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,                                      
+<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,				      
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>ZBD_VENDOR_ID_LENGTH
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>-
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>n
-<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,                                      
+<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,				      
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"%s"
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>str
@@ -1249,7 +1249,7 @@
 <unit><function><function><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>zbd_error
 <unit><function><function><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><function><function><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"Stat device file failed %d (%s)\n"
-<unit><function><function><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,                          
+<unit><function><function><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,			  
 <unit><function><function><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>errno
 <unit><function><function><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><function><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><name>strerror
@@ -1412,7 +1412,7 @@
 <unit><function><function><block><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><name>zbd_error
 <unit><function><function><block><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><function><function><block><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"open %s failed %d (%s)\n"
-<unit><function><function><block><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,                          
+<unit><function><function><block><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,			  
 <unit><function><function><block><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>filename
 <unit><function><function><block><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><function><block><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>errno
@@ -2170,18 +2170,18 @@
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>zbd_error
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"%d: ioctl BLKREPORTZONE at %llu failed %d (%s)\n"
-<unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,                                  
+<unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,				  
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>fd
-<unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,                                  
+<unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,				  
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>(
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>unsigned
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>long
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>long
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>)
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>ofst
-<unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,                                  
+<unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,				  
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>errno
-<unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,                                  
+<unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,				  
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><name>strerror
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>(
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name>errno
