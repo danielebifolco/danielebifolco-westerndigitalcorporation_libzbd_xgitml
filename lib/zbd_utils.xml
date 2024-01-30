@@ -255,7 +255,7 @@
 <unit><decl_stmt><decl><init><expr><block><expr><block>{ 
 <unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>UINT_MAX
 <unit><decl_stmt><decl><init><expr><block><expr><block>,			
-<unit><decl_stmt><decl><init><expr><block><expr><block><expr><literal>"unkown"
+<unit><decl_stmt><decl><init><expr><block><expr><block><expr><literal>"unknown"
 <unit><decl_stmt><decl><init><expr><block><expr><block>,		
 <unit><decl_stmt><decl><init><expr><block><expr><block><expr><literal>"???"
 <unit><decl_stmt><decl><init><expr><block><expr><block>}
@@ -363,7 +363,7 @@
 <unit><decl_stmt><decl><init><expr><block><expr><block>{ 
 <unit><decl_stmt><decl><init><expr><block><expr><block><expr><name>UINT_MAX
 <unit><decl_stmt><decl><init><expr><block><expr><block>,			
-<unit><decl_stmt><decl><init><expr><block><expr><block><expr><literal>"unkown"
+<unit><decl_stmt><decl><init><expr><block><expr><block><expr><literal>"unknown"
 <unit><decl_stmt><decl><init><expr><block><expr><block>,		
 <unit><decl_stmt><decl><init><expr><block><expr><block><expr><literal>"??"
 <unit><decl_stmt><decl><init><expr><block><expr><block>}
