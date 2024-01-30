@@ -268,7 +268,7 @@
 <unit><function><name>zbd_zone_type_str
 <unit><function><parameter_list>(
 <unit><function><parameter_list><parameter><decl><type><name><name>struct
-<unit><function><parameter_list><parameter><decl><type><name><name>blk_zone
+<unit><function><parameter_list><parameter><decl><type><name><name>zbd_zone
 <unit><function><parameter_list><parameter><decl><type><modifier>*
 <unit><function><parameter_list><parameter><decl><name>z
 <unit><function><parameter_list>, 
@@ -376,7 +376,7 @@
 <unit><function><name>zbd_zone_cond_str
 <unit><function><parameter_list>(
 <unit><function><parameter_list><parameter><decl><type><name><name>struct
-<unit><function><parameter_list><parameter><decl><type><name><name>blk_zone
+<unit><function><parameter_list><parameter><decl><type><name><name>zbd_zone
 <unit><function><parameter_list><parameter><decl><type><modifier>*
 <unit><function><parameter_list><parameter><decl><name>z
 <unit><function><parameter_list>, 
