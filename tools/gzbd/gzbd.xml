@@ -633,7 +633,7 @@
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>&amp;
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>dzd
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
-<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>blkz
+<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>zbdz
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>&amp;
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>dzd
@@ -672,7 +672,7 @@
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>dzd
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>max_nr_zones
-<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,						      
+<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><sizeof>sizeof
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list>(
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list><argument><expr><name>dz_dev_zone_t
@@ -739,11 +739,11 @@
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>]
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>.
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>info
-<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>,			       
+<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>&amp;
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>dzd
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
-<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>blkz
+<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>zbdz
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>[
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index><expr><name>i
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>]
@@ -751,7 +751,7 @@
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><sizeof>sizeof
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list>(
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list><argument><expr>struct 
-<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list><argument><expr><name>blk_zone
+<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list><argument><expr><name>zbd_zone
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list>)
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt>;
@@ -787,7 +787,7 @@
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>,			       
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name><name>dzd
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
-<unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name><name>blkz
+<unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name><name>zbdz
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>, 
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><operator>&amp;
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name><name>dzd
@@ -866,7 +866,7 @@
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><operator>&amp;
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><name><name>dzd
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><name><operator>-&gt;
-<unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><name><name>blkz
+<unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><name><name>zbdz
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><name><index>[
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><name><index><expr><name>j
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><name><index>]
@@ -884,11 +884,11 @@
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>]
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>.
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>info
-<unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,			       
+<unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>&amp;
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>dzd
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
-<unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>blkz
+<unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>zbdz
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>[
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index><expr><name>j
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>]
@@ -896,7 +896,7 @@
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><sizeof>sizeof
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list>(
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list><argument><expr>struct 
-<unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list><argument><expr><name>blk_zone
+<unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list><argument><expr><name>zbd_zone
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list>)
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
@@ -1567,12 +1567,12 @@
 <unit><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>dzd
 <unit><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
-<unit><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>blkz
+<unit><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>zbdz
 <unit><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><function><function><function><block><block_content><expr_stmt>;
 <unit><function><function><function><function><block><block_content><expr_stmt><expr><name><name>dzd
 <unit><function><function><function><function><block><block_content><expr_stmt><expr><name><operator>-&gt;
-<unit><function><function><function><function><block><block_content><expr_stmt><expr><name><name>blkz
+<unit><function><function><function><function><block><block_content><expr_stmt><expr><name><name>zbdz
 <unit><function><function><function><function><block><block_content><expr_stmt><expr><operator>=
 <unit><function><function><function><function><block><block_content><expr_stmt><expr><name>NULL
 <unit><function><function><function><function><block><block_content><expr_stmt>;
