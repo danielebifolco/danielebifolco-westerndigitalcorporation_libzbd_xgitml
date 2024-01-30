@@ -1230,8 +1230,6 @@
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><index><expr><name>zno_start
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><index>]
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>)
-<unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>&lt;&lt;
-<unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>9
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list>,			       
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>nrz
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>*
