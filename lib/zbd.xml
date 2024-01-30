@@ -1046,6 +1046,9 @@
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name><operator>-&gt;
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name><name>zone_size
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><operator>=
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><operator>(
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name>size_t
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><operator>)
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name>zone_sectors
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><operator>&lt;&lt;
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><literal>9
