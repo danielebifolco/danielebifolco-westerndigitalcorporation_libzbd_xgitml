@@ -7360,6 +7360,8 @@
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,						
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>GTK_BUTTONS_OK
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,						
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"%s"
+<unit><function><function><block><block_content><decl_stmt><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>str
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><function><block><block_content><decl_stmt><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
