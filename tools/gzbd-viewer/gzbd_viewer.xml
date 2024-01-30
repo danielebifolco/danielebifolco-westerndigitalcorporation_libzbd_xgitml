@@ -989,7 +989,7 @@
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>&amp;
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>argv
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list>,				      
-<unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"Zoned block device zone state GUI"
+<unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"&lt;path to zoned block device&gt;"
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list>,				      
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>options
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list>, 
