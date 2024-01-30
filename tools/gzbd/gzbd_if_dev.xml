@@ -563,73 +563,73 @@
 <unit><struct><decl><name><name>zfilter
 <unit><struct><decl><name><index>[]
 <unit><struct><decl><init>= 
-<unit><struct><decl><init><expr><block>{        
+<unit><struct><decl><init><expr><block>{	
 <unit><struct><decl><init><expr><block><expr><block>{ 
 <unit><struct><decl><init><expr><block><expr><block><expr><name>ZBD_RO_ALL
 <unit><struct><decl><init><expr><block><expr><block>,			
 <unit><struct><decl><init><expr><block><expr><block><expr><literal>"All zones"
 <unit><struct><decl><init><expr><block><expr><block>}
-<unit><struct><decl><init><expr><block>,        
+<unit><struct><decl><init><expr><block>,	
 <unit><struct><decl><init><expr><block><expr><block>{ 
 <unit><struct><decl><init><expr><block><expr><block><expr><name>ZBD_RO_NOT_WP
 <unit><struct><decl><init><expr><block><expr><block>,		
 <unit><struct><decl><init><expr><block><expr><block><expr><literal>"Conventional zones"
 <unit><struct><decl><init><expr><block><expr><block>}
-<unit><struct><decl><init><expr><block>,        
+<unit><struct><decl><init><expr><block>,	
 <unit><struct><decl><init><expr><block><expr><block>{ 
 <unit><struct><decl><init><expr><block><expr><block><expr><name>ZBD_RO_EMPTY
 <unit><struct><decl><init><expr><block><expr><block>,			
 <unit><struct><decl><init><expr><block><expr><block><expr><literal>"Empty zones"
 <unit><struct><decl><init><expr><block><expr><block>}
-<unit><struct><decl><init><expr><block>,        
+<unit><struct><decl><init><expr><block>,	
 <unit><struct><decl><init><expr><block><expr><block>{ 
 <unit><struct><decl><init><expr><block><expr><block><expr><name>ZBD_RO_FULL
 <unit><struct><decl><init><expr><block><expr><block>,			
 <unit><struct><decl><init><expr><block><expr><block><expr><literal>"Full zones"
 <unit><struct><decl><init><expr><block><expr><block>}
-<unit><struct><decl><init><expr><block>,        
+<unit><struct><decl><init><expr><block>,	
 <unit><struct><decl><init><expr><block><expr><block>{ 
 <unit><struct><decl><init><expr><block><expr><block><expr><name>ZBD_RO_IMP_OPEN
 <unit><struct><decl><init><expr><block><expr><block>,		
 <unit><struct><decl><init><expr><block><expr><block><expr><literal>"Implicitly open zones"
 <unit><struct><decl><init><expr><block><expr><block>}
-<unit><struct><decl><init><expr><block>,        
+<unit><struct><decl><init><expr><block>,	
 <unit><struct><decl><init><expr><block><expr><block>{ 
 <unit><struct><decl><init><expr><block><expr><block><expr><name>ZBD_RO_EXP_OPEN
 <unit><struct><decl><init><expr><block><expr><block>,		
 <unit><struct><decl><init><expr><block><expr><block><expr><literal>"Explicitly open zones"
 <unit><struct><decl><init><expr><block><expr><block>}
-<unit><struct><decl><init><expr><block>,        
+<unit><struct><decl><init><expr><block>,	
 <unit><struct><decl><init><expr><block><expr><block>{ 
 <unit><struct><decl><init><expr><block><expr><block><expr><name>ZBD_RO_CLOSED
 <unit><struct><decl><init><expr><block><expr><block>,		
 <unit><struct><decl><init><expr><block><expr><block><expr><literal>"Closed zones"
 <unit><struct><decl><init><expr><block><expr><block>}
-<unit><struct><decl><init><expr><block>,        
+<unit><struct><decl><init><expr><block>,	
 <unit><struct><decl><init><expr><block><expr><block>{ 
 <unit><struct><decl><init><expr><block><expr><block><expr><name>ZBD_RO_RWP_RECOMMENDED
 <unit><struct><decl><init><expr><block><expr><block>,	
 <unit><struct><decl><init><expr><block><expr><block><expr><literal>"Zones needing reset"
 <unit><struct><decl><init><expr><block><expr><block>}
-<unit><struct><decl><init><expr><block>,        
+<unit><struct><decl><init><expr><block>,	
 <unit><struct><decl><init><expr><block><expr><block>{ 
 <unit><struct><decl><init><expr><block><expr><block><expr><name>ZBD_RO_NON_SEQ
 <unit><struct><decl><init><expr><block><expr><block>,		
 <unit><struct><decl><init><expr><block><expr><block><expr><literal>"Zones not sequentially written"
 <unit><struct><decl><init><expr><block><expr><block>}
-<unit><struct><decl><init><expr><block>,        
+<unit><struct><decl><init><expr><block>,	
 <unit><struct><decl><init><expr><block><expr><block>{ 
 <unit><struct><decl><init><expr><block><expr><block><expr><name>ZBD_RO_RDONLY
 <unit><struct><decl><init><expr><block><expr><block>,		
 <unit><struct><decl><init><expr><block><expr><block><expr><literal>"Read-only zones"
 <unit><struct><decl><init><expr><block><expr><block>}
-<unit><struct><decl><init><expr><block>,        
+<unit><struct><decl><init><expr><block>,	
 <unit><struct><decl><init><expr><block><expr><block>{ 
 <unit><struct><decl><init><expr><block><expr><block><expr><name>ZBD_RO_OFFLINE
 <unit><struct><decl><init><expr><block><expr><block>,		
 <unit><struct><decl><init><expr><block><expr><block><expr><literal>"Offline zones"
 <unit><struct><decl><init><expr><block><expr><block>}
-<unit><struct><decl><init><expr><block>,        
+<unit><struct><decl><init><expr><block>,	
 <unit><struct><decl><init><expr><block><expr><block>{ 
 <unit><struct><decl><init><expr><block><expr><block><expr><literal>0
 <unit><struct><decl><init><expr><block><expr><block>, 
