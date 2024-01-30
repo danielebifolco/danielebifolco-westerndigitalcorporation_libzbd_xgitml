@@ -291,7 +291,7 @@
 <unit><function><block><block_content><if_stmt><if><block>{
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>printf
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"%05u, %u, %014llu, %014llu, %014llu, 0x%01x, %01d, %01d\n"
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"%05u, %u, %014llu, %014llu, %014llu, %014llu, 0x%01x, %01d, %01d\n"
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,		       
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>zno
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,		       
@@ -314,6 +314,15 @@
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>unit
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,		       
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><name>zbd_zone_len
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>(
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name>z
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>)
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>/
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>opts
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>unit
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,		       
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><name>zbd_zone_capacity
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>(
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name>z
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>)
@@ -367,7 +376,7 @@
 <unit><function><block><block_content><if_stmt><if><block>{
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>printf
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"Zone %05u: %s, ofst %014llu, len %014llu\n"
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"Zone %05u: %s, ofst %014llu, len %014llu, cap %014llu\n"
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,		       
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>zno
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,		       
@@ -388,6 +397,15 @@
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>unit
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,		       
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><name>zbd_zone_len
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>(
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name>z
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>)
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>/
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>opts
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>unit
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,		       
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><name>zbd_zone_capacity
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>(
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name>z
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>)
@@ -409,7 +427,7 @@
 <unit><function><block><block_content><if_stmt><if><block>{
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>printf
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"Zone %05u: %s, ofst %014llu, len %014llu, "
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"Zone %05u: %s, ofst %014llu, len %014llu, cap %014llu, "
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"wp %014llu, %s, non_seq %01d, reset %01d\n"
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,		       
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>zno
@@ -431,6 +449,15 @@
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>unit
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,		       
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><name>zbd_zone_len
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>(
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name>z
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>)
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>/
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>opts
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>unit
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,		       
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><name>zbd_zone_capacity
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>(
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name>z
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>)
@@ -743,7 +770,7 @@
 <unit><function><block><block_content><decl_stmt><if_stmt><if><condition>)
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><name>printf
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"zone num, type, ofst, len, wp, cond, non_seq, reset\n"
+<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"zone num, type, ofst, len, cap, wp, cond, non_seq, reset\n"
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><block><block_content><decl_stmt><for>for 
