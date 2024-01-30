@@ -2086,7 +2086,7 @@
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><if_stmt><if><block><block_content><return>return 
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><if_stmt><if><block><block_content><return><expr><operator>-
-<unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><if_stmt><if><block><block_content><return><expr><literal>1
+<unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><if_stmt><if><block><block_content><return><expr><name>ENOMEM
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><if_stmt><if><block><block_content><return>;
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><if_stmt><if><block>}
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><name>blkz
@@ -2180,7 +2180,7 @@
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"%d: ioctl BLKREPORTZONE at %llu failed %d (%s)\n"
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,				  
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>fd
-<unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,				  
+<unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>(
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>unsigned
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>long
@@ -2189,7 +2189,7 @@
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>ofst
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,				  
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>errno
-<unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,				  
+<unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><name>strerror
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>(
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name>errno
@@ -2330,7 +2330,7 @@
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt><expr><call><argument_list>)
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><expr_stmt>;
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><return>return 
-<unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><return><expr><literal>0
+<unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><return><expr><name>ret
 <unit><function><function><block><function><function><block><block_content><decl_stmt><decl_stmt><return>;
 <unit><function><function><block><function><function><block><block_content><decl_stmt>}
 <unit><function><function><block><function><function><block><comment>/** * zbd_list_zones - Get zone information */
