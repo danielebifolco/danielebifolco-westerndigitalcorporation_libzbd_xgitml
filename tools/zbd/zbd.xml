@@ -1,5 +1,5 @@
-<unit><comment>//* SPDX-License-Identifier: LGPL-2.0-or-later
-<unit><comment>/* * Copyright (c) 2020 Western Digital Corporation or its affiliates. * * Authors: Damien Le Moal (damien.lemoal@wdc.com) *	    Ting Yao &lt;tingyao@hust.edu.cn&gt; */
+<unit><comment>// SPDX-License-Identifier: GPL-3.0-or-later
+<unit><comment>/* * SPDX-FileCopyrightText: 2020 Western Digital Corporation or its affiliates. * * Authors: Damien Le Moal (damien.lemoal@wdc.com) *	    Ting Yao &lt;tingyao@hust.edu.cn&gt; */
 <unit><cpp:define>#
 <unit><cpp:define><cpp:directive>define
 <unit><cpp:define><cpp:macro><name>_LARGEFILE64_SOURCE
