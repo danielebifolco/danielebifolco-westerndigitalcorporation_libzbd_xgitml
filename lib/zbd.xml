@@ -2015,6 +2015,8 @@
 <unit><function><function><function><function><block><block_content><decl_stmt><decl_stmt><decl><decl_stmt>;
 <unit><function><function><function><function><block><block_content><decl_stmt><decl_stmt><decl><decl_stmt><decl><type><name>int
 <unit><function><function><function><function><block><block_content><decl_stmt><decl_stmt><decl><decl_stmt><decl><name>ret
+<unit><function><function><function><function><block><block_content><decl_stmt><decl_stmt><decl><decl_stmt><decl><init>= 
+<unit><function><function><function><function><block><block_content><decl_stmt><decl_stmt><decl><decl_stmt><decl><init><expr><literal>0
 <unit><function><function><function><function><block><block_content><decl_stmt><decl_stmt><decl><decl_stmt>;
 <unit><function><function><function><function><block><block_content><decl_stmt><decl_stmt><decl><if_stmt><if>if 
 <unit><function><function><function><function><block><block_content><decl_stmt><decl_stmt><decl><if_stmt><if><condition>(
