@@ -380,6 +380,14 @@
 <unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><operator>.
 <unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><name>block_size
 <unit><function><block><block_content><for><block><block_content><expr_stmt>;
+<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><name>zbdz
+<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><operator>-&gt;
+<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><name>capacity
+<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><operator>/=
+<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><name>gzv
+<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><operator>.
+<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name><name>block_size
+<unit><function><block><block_content><for><block><block_content><expr_stmt>;
 <unit><function><block><block_content><for><block><block_content><if_stmt><if>if 
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><condition>(
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><condition><expr><operator>!
