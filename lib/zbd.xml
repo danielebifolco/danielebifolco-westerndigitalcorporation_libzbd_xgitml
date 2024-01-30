@@ -2926,7 +2926,7 @@
 <unit><function><function><function><function><block><block_content><function><block><block_content><decl_stmt><switch><block><block_content><cpp:else><cpp:directive>else
 <unit><function><function><function><function><block><block_content><function><block><block_content><decl_stmt><switch><block><block_content><expr_stmt><expr><call><name>zbd_error
 <unit><function><function><function><function><block><block_content><function><block><block_content><decl_stmt><switch><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><function><function><function><block><block_content><function><block><block_content><decl_stmt><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"BLKCLOSEZONE ioctl is not supported\n"
+<unit><function><function><function><function><block><block_content><function><block><block_content><decl_stmt><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"BLKOPENZONE ioctl is not supported\n"
 <unit><function><function><function><function><block><block_content><function><block><block_content><decl_stmt><switch><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><function><function><function><block><block_content><function><block><block_content><decl_stmt><switch><block><block_content><expr_stmt>;
 <unit><function><function><function><function><block><block_content><function><block><block_content><decl_stmt><switch><block><block_content><expr_stmt><expr><name>errno
@@ -3052,7 +3052,7 @@
 <unit><function><function><function><function><block><block_content><function><block><block_content><decl_stmt><switch><block><block_content><cpp:else><cpp:directive>else
 <unit><function><function><function><function><block><block_content><function><block><block_content><decl_stmt><switch><block><block_content><expr_stmt><expr><call><name>zbd_error
 <unit><function><function><function><function><block><block_content><function><block><block_content><decl_stmt><switch><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><function><function><function><block><block_content><function><block><block_content><decl_stmt><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"BLKCLOSEZONE ioctl is not supported\n"
+<unit><function><function><function><function><block><block_content><function><block><block_content><decl_stmt><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"BLKFINISHZONE ioctl is not supported\n"
 <unit><function><function><function><function><block><block_content><function><block><block_content><decl_stmt><switch><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><function><function><function><block><block_content><function><block><block_content><decl_stmt><switch><block><block_content><expr_stmt>;
 <unit><function><function><function><function><block><block_content><function><block><block_content><decl_stmt><switch><block><block_content><expr_stmt><expr><name>errno
